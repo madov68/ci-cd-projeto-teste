@@ -22,7 +22,7 @@ describe('Pages', () => {
     expect(res.send.calledOnce).to.be.true
     expect(res.send.calledWith('Page1')).to.be.true
   })
-  it('should return page2', () => {
+  it('should return page2 ', () => {
     const req = {}
     const res = {
       send: sinon.spy()
